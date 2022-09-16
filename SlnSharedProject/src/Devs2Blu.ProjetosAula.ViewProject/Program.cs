@@ -16,7 +16,7 @@ namespace Devs2Blu.ProjetosAula.ViewProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormGuilhermeFernando());
         }
     }
 }
