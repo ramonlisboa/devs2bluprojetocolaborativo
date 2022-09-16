@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9A04CE80-5AF3-4873-AEE7-C37727200030}</ProjectGuid>
+    <ProjectGuid>{8AEC202B-38A8-4B1C-A458-8BD08C8C51FD}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Devs2Blu.ProjetosAula.ViewProject</RootNamespace>
     <AssemblyName>Devs2Blu.ProjetosAula.ViewProject</AssemblyName>
@@ -51,12 +51,6 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormJairBrito.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormJairBrito.Designer.cs">
-      <DependentUpon>FormJairBrito.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
