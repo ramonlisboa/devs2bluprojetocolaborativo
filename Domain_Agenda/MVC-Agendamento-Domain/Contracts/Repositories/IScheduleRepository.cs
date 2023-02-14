@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MVC_Agendamento_Domain.IRepositories
+namespace MVC_Agendamento_Domain.Contract.Repositories
 {
     public interface IScheduleRepository : IBaseRepository<Schedule>
     {

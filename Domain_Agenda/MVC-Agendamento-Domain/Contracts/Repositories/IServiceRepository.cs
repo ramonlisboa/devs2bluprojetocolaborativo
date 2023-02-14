@@ -5,7 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MVC_Agendamento_Domain.IRepositories {
-    public interface IServiceRepository : IBaseRepository<Service> {
+namespace MVC_Agendamento_Domain.Contract.Repositories
+{
+    public interface IServiceRepository : IBaseRepository<Service>
+    {
     }
 }
