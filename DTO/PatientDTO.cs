@@ -17,13 +17,13 @@ namespace Register.Domain.DTO
 
         [Display(Name = "Condition")]
         [Required(ErrorMessage = "{0} is required")]
-        public int conditionId { get; set; }
+        public int? conditionId { get; set; }
 
         [Display(Name = "PersonId")]
         public int personId { get; set; }
 
         [Display(Name = "MRNumber")]
-        public int mrNumber { get; set; }
+        public int? mrNumber { get; set; }
 
         public virtual PersonDTO? person { get; set; }
         public virtual ConditionDTO? condition { get; set; }

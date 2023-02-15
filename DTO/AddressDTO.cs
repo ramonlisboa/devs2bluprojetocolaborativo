@@ -10,7 +10,7 @@ namespace Register.Domain.DTO
     public class AddressDTO
     {
         public int id { get; set; }
-        public int personId { get; set; }
+        public int? personId { get; set; }
         public string city { get; set; }
         public string postalCode { get; set; }
         public string district { get; set; }
